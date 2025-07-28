@@ -70,7 +70,7 @@ def decrypt_message(key, message=None, filename=None):
             parts = ciphertext.split('==', 2)
             ext= parts[1]
             content = parts[2].encode('utf-8')
-            print(content)
+    
             decrpted_content = fernet.decrypt(content)
             f.close()
         new_name= os.path.splitext(filename)[0]
