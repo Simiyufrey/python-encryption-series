@@ -3,3 +3,6 @@ venv/
 Symmetrical/*.txt
 *.enc
 *.jpg
+*.txt
+*.bin
+*.key
