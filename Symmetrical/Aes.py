@@ -13,7 +13,6 @@ def generate_key():
 def load_key(filename):
     with open(filename, "rb") as f:
         key= f.read()
-
         return key
 
 def encrypt_file(input_file, key):
