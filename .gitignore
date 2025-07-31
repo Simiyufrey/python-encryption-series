@@ -6,3 +6,4 @@ Symmetrical/*.txt
 *.txt
 *.bin
 *.key
+*.hash
