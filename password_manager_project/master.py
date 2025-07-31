@@ -14,7 +14,6 @@ def create_master_password():
 
     with open(MASTER_HASH_FILE, "wb") as f:
         f.write(hashed_pwd)
-
         f.close()
     print("Master password Set!!")
 
